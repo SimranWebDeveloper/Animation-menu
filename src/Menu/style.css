@@ -1,0 +1,21 @@
+.demo{
+    /* transform:translateX(300px);
+    transition: all 2s;
+    background-color: red !important; */
+}
+
+.hide-menu{
+    transform: translateX(0);
+    width: 400px;
+    height: 80vh;
+    background-color: red;
+    transition: all 2s ease;
+}
+
+.menu{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    transition: all .3s ease;
+    transform: translateX(-100%);
+}
